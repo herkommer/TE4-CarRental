@@ -1,0 +1,20 @@
+﻿@model CarRental.Models.Car
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CarDetails</title>
+</head>
+<body>
+    <div> 
+        @Model.Make
+    </div>
+    <p>@Html.ActionLink("back", "Index")</p>
+</body>
+</html>
